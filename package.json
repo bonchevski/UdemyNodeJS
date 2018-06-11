@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bonchevski/UdemyNodeJS/issues"
   },
-  "homepage": "https://github.com/bonchevski/UdemyNodeJS#readme"
+  "homepage": "https://github.com/bonchevski/UdemyNodeJS#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
