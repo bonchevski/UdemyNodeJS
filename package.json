@@ -1,0 +1,19 @@
+{
+  "name": "udemynodejs",
+  "version": "1.0.0",
+  "description": "Udemy Node JS course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonchevski/UdemyNodeJS.git"
+  },
+  "author": "Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonchevski/UdemyNodeJS/issues"
+  },
+  "homepage": "https://github.com/bonchevski/UdemyNodeJS#readme"
+}
