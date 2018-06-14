@@ -19,7 +19,16 @@ console.log("Yargs : " , argv);
 
 if (command === "add") {
   // Accessing from NotesJS
-  notes.addNote(argv.title, argv.body);
+ var note = notes.addNote(argv.title, argv.body);
+  if(note){
+    console.log('Note created')
+    console.log('---');
+    console.log(`Title : ${note.title} `);
+    console.log(`Body ${notes.body} `);
+  }
+  else{
+    console.log('Title taken');
+  }
 } else if (command === "list") {
 notes.getAll();
 } else if (command === "read") {
