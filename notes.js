@@ -1,13 +1,26 @@
 console.log('File is running');
 
-module.exports.addNote = () => {
-
-console.log('addNote');
-return 'New note';
+var addNote  = (title, body) =>{
+   console.log('Adding note', title, body); 
 };
 
-module.exports.addFunction = (a, b) => {
-    
+var getAll = () => {
+    console.log('Getting all notes')
+};
 
-    return a + b ;
+var getNote = (title, body) => {
+    console.log("Reading note " , title);
+};
+
+var removeNote = (title, body) =>{
+    console.log('Removing note' , title );
+};
+
+module.exports = {
+    addNote,
+    getAll,
+    getNote,
+    removeNote,
+
+    // or just delete : AddNote
 };
